@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2433447892112146873
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2433447892112146875}
+  - component: {fileID: 2433447892112146874}
+  - component: {fileID: 2433447892112146876}
+  - component: {fileID: 236343694}
+  m_Layer: 0
+  m_Name: NetworkManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2433447892112146875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433447892112146873}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.40084, y: -16.503422, z: 2.779963}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2433447892112146874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433447892112146873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff19ad7b62a1c2409900f86826f1a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CarGameObject: {fileID: 218827142089636093, guid: 92a5c79de067dc442a849d1e375ee65e,
+    type: 3}
+  SpawnPoint:
+  - {fileID: 0}
+  MainCamerago: {fileID: 0}
+  CarCamerago: {fileID: 6933511477894082938, guid: 51116ba60cecff94ea1abec8ac919bd2,
+    type: 3}
+--- !u!114 &2433447892112146876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433447892112146873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f53ce3cdca1d0064d8478605ce5c196d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterTimerofEvent: 0
+  nextEventTime: 10
+  isInEvent: 0
+  SingleEvent: 0
+  SpotCube: {fileID: 7424653813565884048, guid: 4c51d4755b0e0b8449e2030fb2f1dbb5,
+    type: 3}
+  PersonForTaxi: {fileID: -927199367670048503, guid: a3067ea148b649e49b371aec53269862,
+    type: 3}
+  SpotPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  StartSpotNumber: 0
+  FinalPointNumber: 0
+  money: 500
+--- !u!114 &236343694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2433447892112146873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 0
+  OwnershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  viewIdField: 0
+  InstantiationId: 9
+  isRuntimeInstantiated: 0

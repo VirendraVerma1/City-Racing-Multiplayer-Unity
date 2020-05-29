@@ -1,0 +1,1 @@
+For the presentation i used Amplify Color plugin to color correction. I have included two LUT for Both day and night version. Use them to get exact Look as screenshot. Thanks

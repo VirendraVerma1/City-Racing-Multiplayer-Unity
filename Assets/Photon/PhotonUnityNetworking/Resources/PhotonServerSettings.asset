@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: PhotonServerSettings
   m_EditorClassIdentifier: 
   AppSettings:
-    AppIdRealtime: 16f4fbdb-61d8-4d36-9e95-c3f414828107
+    AppIdRealtime: f3a50035-db1a-400b-b2b5-6cbdceae0696
     AppIdChat: 
     AppIdVoice: 
-    AppVersion: 1.1
+    AppVersion: 
     UseNameServer: 1
     FixedRegion: 
     Server: 
@@ -29,17 +29,16 @@ MonoBehaviour:
   EnableSupportLogger: 0
   RunInBackground: 1
   RpcList:
+  - ActivePadstoAll
+  - ChangeCar
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
-  - ActivePadstoAll
   - SendNameToAll
-  - UpdateTotalPlayer
   - StartRaceToAllPlayers
-  - UpdateToall
   - UpdateCheckPointScoresToAll
   - UpdateFinishPositions
   - UpdatePlayerTimer
-  - ChangeCar
+  - UpdateToall
   DisableAutoOpenWizard: 1
-  ShowSettings: 1
+  ShowSettings: 0
